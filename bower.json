@@ -1,0 +1,22 @@
+{
+  "name": "angular-chroma",
+  "version": "0.0.1",
+  "authors": [
+    "bitliner <giovanni.gaglione@gmail.com>"
+  ],
+  "description": "Wrapper of chroma-js for angular",
+  "main": "angular-chroma.js",
+  "keywords": [
+    "chroma",
+    "angular",
+    "colors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
