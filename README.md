@@ -13,14 +13,14 @@ Simple wrapper of [chroma-js](https://github.com/gka/chroma.js) to use chroma-js
 
 ```
 angular.module('YourApp',[
-	'chroma.Angular'
+	'chroma.AngularChroma'
 ])
 ```
 
 2. then you can use it in your angular modules/controllers/services/directives
 
 ```
-var scale=Chroma.scale(['black','white']).domain([0,100],10);
+var scale=chroma.scale(['black','white']).domain([0,100],10);
 scale(10).hex();
 ```
 

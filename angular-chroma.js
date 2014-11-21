@@ -8,7 +8,7 @@
  * Service in the brandDashboardApp.
  */
 angular.module('chroma.angularChroma',[])
-    .service('Chroma', function chromaWrapper() {
+    .service('chroma', function chromaWrapper() {
 
         var Service = {};
 
